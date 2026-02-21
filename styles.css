@@ -144,12 +144,8 @@ nav ul{
     display: flex;
     flex-direction: row;
     gap: 1rem;
-    flex-wrap: nowrap;
     justify-items: flex-start;
-
-    /* TO DO */
-}
-
+    z-index: 2;
 
 nav a{
     display: block;
