@@ -139,9 +139,7 @@ nav ul{
     list-style-type: none;
     padding: 0;
     /* Styles were added here to arrange the content, I used flexbox */
-    display: flex;
-    list-style-type: none;
-    padding: 0;
+    
     /* TO DO */
 }
 
