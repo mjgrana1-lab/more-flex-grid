@@ -173,7 +173,7 @@ nav a span{
     position: relative;
     /* Styles were added here to arrange the content, I used top and z-index for this */
     /* TO DO */
-    top: -100px;
+    top: -125px;
 	z-index: 1;
 }
 
