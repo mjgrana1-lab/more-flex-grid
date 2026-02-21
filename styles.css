@@ -143,7 +143,9 @@ nav ul{
     /* Styles were added here to arrange the content, I used flexbox */
     display: flexbox;
     flex-direction: row;
-    
+    gap: 1rem;
+    flex-wrap: nowrap;
+    justify-items: flex-start;
 
     /* TO DO */
 }
