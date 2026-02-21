@@ -143,7 +143,7 @@ nav ul{
     /* Styles were added here to arrange the content, I used flexbox */
     display: flex;
     list-style-type: none;
-     padding: 0;
+    padding: 0;
 }/* TO DO */
 
 
@@ -171,7 +171,8 @@ nav a svg{
 nav a span{
     display: block;
     position: relative;
-    /* Styles were added here to arrange the content, I used top and z-index for this */
+    margin-top: auto;/* Styles were added here to arrange the content, I used top and z-index for this */
+    z-index: 1;
     /* TO DO */
 }
 
