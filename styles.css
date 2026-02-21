@@ -73,7 +73,8 @@ header{
     background-position: right;
     background-size: contain;
     /* Styles were added here to arrange the content, I used flexbox */
-    /* TO DO */
+    display: flexbox;  /* TO DO */
+    flex-direction: row;
 }
 
 /* For All Headings */
