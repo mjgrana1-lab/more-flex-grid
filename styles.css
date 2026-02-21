@@ -141,8 +141,11 @@ nav ul{
     list-style-type: none;
     padding: 0;
     /* Styles were added here to arrange the content, I used flexbox */
-    /* TO DO */
-}
+    display: flex;
+    list-style-type: none;
+     padding: 0;
+}/* TO DO */
+
 
 nav a{
     display: block;
