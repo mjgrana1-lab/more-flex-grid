@@ -144,7 +144,6 @@ nav ul{
     display: flex;
     flex-direction: row;
     gap: 1rem;
-    justify-items: center;
     z-index: 3;
 }
 
