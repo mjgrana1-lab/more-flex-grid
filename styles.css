@@ -173,8 +173,8 @@ nav a span{
     position: relative;
     /* Styles were added here to arrange the content, I used top and z-index for this */
     /* TO DO */
-    text-align: center;
-    z-index: 1;
+    top: -5px;
+	z-index: 1;
 }
 
 nav a:focus{
