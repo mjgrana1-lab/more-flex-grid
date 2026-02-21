@@ -1,5 +1,5 @@
 /*
-    Name: 
+    Name: Mireya Granados
 */
 
 :root{
@@ -73,12 +73,11 @@ header{
     background-position: right;
     background-size: contain;
     /* Styles were added here to arrange the content, I used flexbox */
-    display: flex;
-    flex-direction: column;  /* TO DO */
-    gap: 1rem;
-    justify-content: normal;
-    align-items: flex-start;
-
+    /* TO DO */
+    display: flexbox;
+    flex-direction: column;
+    gap: 16px;
+    align-content: flex-start;
 }
 
 /* For All Headings */
@@ -141,10 +140,12 @@ nav ul{
     list-style-type: none;
     padding: 0;
     /* Styles were added here to arrange the content, I used flexbox */
+    /* TO DO */
     display: flex;
     flex-direction: row;
     gap: 1rem;
-}        
+    justify-items: center;
+}
 
 nav a{
     display: block;
@@ -170,10 +171,10 @@ nav a svg{
 nav a span{
     display: block;
     position: relative;
-    margin-top: 100px;
     /* Styles were added here to arrange the content, I used top and z-index for this */
-    z-index: 1;
     /* TO DO */
+    text-align: top;
+    z-index: 1;
 }
 
 nav a:focus{
