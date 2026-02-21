@@ -73,12 +73,10 @@ header{
     background-position: right;
     background-size: contain;
     /* Styles were added here to arrange the content, I used flexbox */
-    display: flexbox;  /* TO DO */
-    flex-direction: column;
-    gap: 16px;
+    display: flex;  /* TO DO */
+    gap: 1rem;
     justify-content: center;
 
-   
 }
 
 /* For All Headings */
@@ -144,6 +142,7 @@ nav ul{
     display: flex;
     list-style-type: none;
     padding: 0;
+    text-align: center;
 }/* TO DO */
 
 
