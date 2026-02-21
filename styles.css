@@ -141,10 +141,15 @@ nav ul{
     padding: 0;
     /* Styles were added here to arrange the content, I used flexbox */
     /* TO DO */
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    z-index: 3;
+    display: block;
+	padding: 0.5rem;
+	width: 1.75rem;
+	height: 1.75rem;
+	text-align: center;
+	position: relative;
+	top: -5px;
+	left: 50px;
+	z-index: 1;
 }
 
 nav a{
