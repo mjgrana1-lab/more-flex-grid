@@ -241,7 +241,8 @@ p{
 
 #plants h3, #plants > p{
     /* Styles were added here to arrange the content, these are grid children styles */
-    -ms-grid-column-span: #plants;
+    #grid-child-span-columns: 1/-1;
+    
     /* TO DO */
 }
 
