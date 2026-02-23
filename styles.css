@@ -250,7 +250,7 @@ p{
     /* Styles were added here to arrange the content, I used flexbox */
     display: flex;
     flex-direction: column;
-    justify-items: center;
+    justify-content: space-between;
     margin: 32px auto 0;
     /* TO DO */
 }
