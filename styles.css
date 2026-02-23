@@ -283,7 +283,9 @@ p{
     color: var(--wht);
     padding: 64px 32px;
     /* Styles were added here to arrange the content, I used grid */
-    display: grid; /* TO DO */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px; /* TO DO */
     
 }
 
