@@ -234,7 +234,7 @@ p{
     padding: 96px 32px;
     /* Styles were added here to arrange the content, I used grid */
     display: grid;
-    align-items: end;
+    align-items: stretch;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 16px;
     /* TO DO */
@@ -249,7 +249,7 @@ p{
 #plants section{
     /* Styles were added here to arrange the content, I used flexbox */
     display: flex;
-    justify-content: space-between;/* TO DO */
+    /* TO DO */
     flex-direction: column;
     margin: 32px auto 0;
 }
