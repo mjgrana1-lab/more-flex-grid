@@ -234,7 +234,7 @@ p{
     padding: 96px 32px;
     /* Styles were added here to arrange the content, I used grid */
     display: grid;
-    align-items: flex-end;
+    align-items: end;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 16px;
     justify-content: center;
@@ -252,6 +252,7 @@ p{
     display: flex;
     /* TO DO */
     flex-direction: column;
+    justify-items: center;
     margin: 32px auto 0;
 }
 
@@ -265,7 +266,7 @@ p{
     /* TO DO */
     width: 100%;
     max-width: 400px;
-    height: auto auto auto ;
+    height: auto;
 }
 
 .price{
@@ -283,7 +284,8 @@ p{
     color: var(--wht);
     padding: 64px 32px;
     /* Styles were added here to arrange the content, I used grid */
-    /* TO DO */
+    display: grid; /* TO DO */
+    
 }
 
 /* Contact Heading and Paragraph */
