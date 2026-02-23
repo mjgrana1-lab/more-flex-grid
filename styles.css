@@ -265,7 +265,7 @@ p{
     /* TO DO */
     width: 100%;
     max-width: 400px;
-    height: auto;
+    height: auto auto auto ;
 }
 
 .price{
