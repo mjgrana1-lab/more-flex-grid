@@ -249,8 +249,9 @@ p{
 #plants section{
     /* Styles were added here to arrange the content, I used flexbox */
     display: flex;
-    /* TO DO */
-    flex-direction: column;
+	flex-wrap: wrap;
+	gap: 1rem;
+	justify-content: space-evenly;
     margin: 32px auto 0;
 }
 
