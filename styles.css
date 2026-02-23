@@ -249,9 +249,8 @@ p{
 #plants section{
     /* Styles were added here to arrange the content, I used flexbox */
     display: flex;
-	flex-wrap: wrap;
-	gap: 1rem;
-	justify-content: space-evenly;
+    /* TO DO */
+    flex-direction: column;
     margin: 32px auto 0;
 }
 
@@ -261,6 +260,7 @@ p{
 
 #plants img{
     /* Styles were added here to arrange the content, I used a property for a flexbox child to change the order that the content appears on the page */
+    order: -1;
     /* TO DO */
     width: 100%;
     max-width: 400px;
