@@ -292,6 +292,7 @@ p{
 /* Contact Heading and Paragraph */
 #contact h3, #contact > p{
     /* Styles were added here to arrange the content, these are grid children styles */
+    grid-column: 1/-1;
     /* TO DO */
 }
 
