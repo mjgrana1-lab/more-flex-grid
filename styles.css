@@ -234,9 +234,10 @@ p{
     padding: 96px 32px;
     /* Styles were added here to arrange the content, I used grid */
     display: grid;
-    align-items: stretch;
+    align-items: flex-end;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 16px;
+    justify-content: center;
     /* TO DO */
 }
 
